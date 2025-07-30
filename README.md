@@ -1,6 +1,6 @@
 # Student Feedback System
 
-[Live Demo → student-feedback-system-form.vercel.app](https://student-feedback-system-form.vercel.app)
+🌐 https://student-feedback-system-form.vercel.app
 
 A modern web application for managing and collecting feedback from students about faculty performance. Built with React, Vite, and Tailwind CSS, this system provides separate dashboards and features for students, faculty, and administrators.
 
@@ -67,7 +67,7 @@ Student-Feedback-System/
 
 ## How to Use
 ### 1. Admin Login
-- Go to the [Live Demo](https://student-feedback-system-form.vercel.app) or your local server.
+- Go to the [website](https://student-feedback-system-form.vercel.app) or your local server.
 - Select the **Administrator** role and log in with the admin credentials above.
 
 ### 2. User Management
@@ -103,6 +103,3 @@ Student-Feedback-System/
 
 ## License
 This project is open source and available under the MIT License.
-
-## Repository
-[https://github.com/Nareshrana1999/Student-Feedback-System.git](https://github.com/Nareshrana1999/Student-Feedback-System.git)
