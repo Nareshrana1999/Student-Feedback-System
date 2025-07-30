@@ -1,11 +1,13 @@
 # Student Feedback System
 
+[Live Demo → student-feedback-system-form.vercel.app](https://student-feedback-system-form.vercel.app)
+
 A modern web application for managing and collecting feedback from students about faculty performance. Built with React, Vite, and Tailwind CSS, this system provides separate dashboards and features for students, faculty, and administrators.
 
 ## Features
+- **Admin Dashboard:** Manage all users (faculty and students), analyze feedback, and oversee system settings.
 - **Student Dashboard:** Submit feedback, view feedback history, update profile, and change password.
 - **Faculty Dashboard:** View received feedback, performance stats, and manage profile and password.
-- **Admin Dashboard:** Manage all users (faculty and students), analyze feedback, and oversee system settings.
 - **Authentication:** Role-based login for admin, faculty, and students.
 - **Password Management:** All users can change their password securely.
 - **Responsive UI:** Built with Tailwind CSS for a modern, mobile-friendly experience.
@@ -63,39 +65,32 @@ Student-Feedback-System/
 - **Email:** admin@college.edu
 - **Password:** admin123
 
-### Faculty (all use password: 123456)
-- Dr. John Smith — john.faculty@college.edu
-- Dr. Emma Brown — emma.faculty@college.edu
-- Dr. Li Wang — li.faculty@college.edu
-- Dr. Maria Garcia — maria.faculty@college.edu
-- Dr. David Miller — david.faculty@college.edu
+## How to Use
+### 1. Admin Login
+- Go to the [Live Demo](https://student-feedback-system-form.vercel.app) or your local server.
+- Select the **Administrator** role and log in with the admin credentials above.
 
-### Students (all use password: 123456)
-- Ava Patel — ava.patel@college.edu
-- Liam Johnson — liam.johnson@college.edu
-- Sophia Lee — sophia.lee@college.edu
-- Noah Kim — noah.kim@college.edu
-- Mia Chen — mia.chen@college.edu
-- Ethan Brown — ethan.brown@college.edu
-- Isabella Garcia — isabella.garcia@college.edu
-- Mason Martinez — mason.martinez@college.edu
-- Charlotte Davis — charlotte.davis@college.edu
-- Logan Wilson — logan.wilson@college.edu
-- Amelia Anderson — amelia.anderson@college.edu
-- Elijah Thomas — elijah.thomas@college.edu
-- Harper Moore — harper.moore@college.edu
-- Benjamin Taylor — benjamin.taylor@college.edu
-- Evelyn Jackson — evelyn.jackson@college.edu
-- James White — james.white@college.edu
-- Abigail Harris — abigail.harris@college.edu
-- Lucas Clark — lucas.clark@college.edu
-- Ella Lewis — ella.lewis@college.edu
-- Henry Young — henry.young@college.edu
-- Scarlett King — scarlett.king@college.edu
-- Jack Wright — jack.wright@college.edu
-- Grace Lopez — grace.lopez@college.edu
-- Alexander Hill — alexander.hill@college.edu
-- Chloe Scott — chloe.scott@college.edu
+### 2. User Management
+- **View Users:** The admin dashboard displays all faculty and students. You can search, filter, and view user details.
+- **Add User:** Click "Add Faculty" or "Add Student" to create new users. Fill in the required details and save.
+- **Edit User:** Click the edit icon next to a user to update their information.
+- **Delete User:** Click the delete icon to remove a user from the system.
+
+### 3. Feedback Analysis
+- Go to the **Feedback Analysis** tab to view aggregated feedback data for all faculty.
+- See statistics such as total feedback, average ratings, and distribution of ratings.
+- Use this data to monitor faculty performance and identify trends.
+
+### 4. Settings
+- In the **Settings** tab, you can manage admin account security (change password, etc.).
+- All users (admin, faculty, student) can change their password from their respective settings page.
+
+### 5. Student & Faculty Features (as Admin)
+- You can create, edit, or delete student and faculty accounts to simulate their experience.
+- To test as a student or faculty, log out and log in with their credentials (see user management for details).
+
+### 6. Data Persistence
+- All data is stored in browser localStorage for demo purposes. To reset demo data, clear your browser's localStorage.
 
 ## Plugins & Tools
 - **plugins/**: Contains optional visual editor and Vite plugins for inline editing (for development convenience).
@@ -103,15 +98,11 @@ Student-Feedback-System/
 - **.nvmrc**: Ensures all contributors use the same Node.js version.
 
 ## Notes
-- All data is stored in browser localStorage for demo purposes. For production, integrate with a backend/database.
-- To reset demo data, clear your browser's localStorage.
+- For production, integrate with a backend/database for real data persistence and security.
 - No Hostinger or unrelated files remain in this repo.
 
 ## License
 This project is open source and available under the MIT License.
-
-## Live Demo
-[student-feedback-system-form.vercel.app](https://student-feedback-system-form.vercel.app)
 
 ## Repository
 [https://github.com/Nareshrana1999/Student-Feedback-System.git](https://github.com/Nareshrana1999/Student-Feedback-System.git)
